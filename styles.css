@@ -1,0 +1,631 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo img {
+    width: auto; /* Adjusted for better visibility */
+  }
+  
+  .nav ul {
+    display: flex;
+  justify-content: flex-end; /* Aligns links to the right */
+  align-items: center;
+  flex-wrap: wrap;
+  }
+  
+  .nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .main-content {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .intro-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+    max-width: 1200px; /* Constrains content width */
+  }
+
+  .intro-text, .profile-image {
+    flex: 1;
+  }
+
+  .profile-image img {
+    max-width: 100%; /* Ensures image scales properly */
+  }
+  
+  .intro-text {
+    max-width: calc(50% - 20px); /* Ensures proper spacing */
+  }
+  
+  .intro-text h1 {
+    font-size: 3rem; /* Increased for emphasis */
+  }
+  
+  .intro-text p {
+    margin-top: 15px; /* Adjusted spacing */
+  }
+  
+  .profile-image img {
+    width: auto;
+    height: auto;
+    max-width: 350px; /* Adjusted size */
+  }
+
+
+  .education-section {
+    text-align: left; /* Aligns text to the left */
+    width: calc(50% - 20px); /* Ensures it takes up half of the container width */
+  }
+  
+  .education-text p {
+    margin-top: 15px; /* Add spacing between paragraphs */
+  }
+  
+  .university-logo-container img {
+    margin-top: -10px; /* Space between text and logo */
+  }
+
+  /* Resume Button Styling */
+.resume-button {
+    display: inline-block;
+    margin-top: 20px; /* Adds spacing above the button */
+    padding: 10px 20px; /* Adds padding inside the button */
+    background-color: #007BFF; /* Blue background color */
+    color: white; /* White text color */
+    text-decoration: none; /* Removes underline from link */
+    font-weight: bold; /* Makes text bold */
+    border-radius: 5px; /* Rounds the corners of the button */
+  }
+  
+  .resume-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Profile Image Styling */
+  .profile-image img {
+    width: auto;
+  }
+
+  /*Page 2*/
+  
+  /* Projects Page Styling */
+.projects-page {
+    padding: 60px 20px; /* Add padding for spacing */
+  }
+  
+  .projects-section {
+    text-align: center;
+  }
+  
+  .projects-section .section-title {
+    font-size: 1.2rem; /* Smaller, subtle title */
+    color: #8b949e; /* Light gray for "My Experience" */
+    margin-bottom: 10px;
+  }
+  
+  .projects-section .section-subtitle {
+    font-size: 2rem; /* Larger, bold subtitle */
+    color: #58a6ff; /* Blue color for emphasis */
+    font-weight: bold;
+    margin-bottom: 40px; /* Space below subtitle */
+  }
+  
+  /* Projects Container Styling */
+  .projects-container {
+    display: flex;
+    justify-content: center; /* Centers the cards horizontally */
+    gap: 20px; /* Adds space between cards */
+  }
+  /* Testimonials Section */
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+    justify-content: center; /* Centers cards horizontally */
+    gap: 20px;
+  }
+  
+  .project-card {
+    flex-grow: 1; /* Allows cards to grow and fill available space */
+    max-width: calc(33.33% - 20px); /* Ensures three cards per row with spacing */
+  }
+
+  /* Individual Project Card Styling */
+  .projects-container .project-card {
+    background-color: rgba(255, 255, 255, 0.05); /* Transparent dark overlay for cards */
+    border-radius: 12px; /* Rounded corners for cards */
+    padding: 20px;
+    width: 250px; /* Fixed width for uniformity */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 6px; /* Subtle shadow for depth */
+  }
+  
+  .projects-container .project-card h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .projects-container .see-more {
+    display: inline-block;
+    margin-top: 15px;
+    color: #58a6ff; /* Blue text for links */
+    text-decoration: none;
+  }
+  
+  .projects-container .see-more:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    margin-bottom: 5px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #007BFF; /* Blue color for links */
+}
+
+.social-links li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+<style>
+/* Contact Form Section */
+.contact-form-section {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px; /* Rounded corners for the section */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 600px;
+  margin: auto; /* Center the form on the page */
+  margin-bottom: 50px;
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .contact-form-section h3 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .contact-form-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, .1);
+  }
+  
+  .form-group input::placeholder,
+  .form-group textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #007BFF;
+  }
+  
+  /* Submit Button Styling */
+  .send-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .send-button:hover {
+      background-color:#0056b3
+
+      
+      
+
+  
+
+
+
+/* Projects Page Styling */
+.projects-page {
+    padding: 60px 20px; /* Add padding for spacing */
+  }
+  
+  .projects-section {
+    text-align: center;
+  }
+  
+  .projects-section .section-title {
+    font-size: 1.2rem; /* Smaller, subtle title */
+    color: #8b949e; /* Light gray for "My Experience" */
+    margin-bottom: 10px;
+  }
+  
+  .projects-section .section-subtitle {
+    font-size: 2rem; /* Larger, bold subtitle */
+    color: #58a6ff; /* Blue color for emphasis */
+    font-weight: bold;
+    margin-bottom: 40px; /* Space below subtitle */
+  }
+  
+  /* Projects Container Styling */
+  .projects-container {
+    display: flex;
+    justify-content: center; /* Centers the cards horizontally */
+    gap: 20px; /* Adds space between cards */
+  }
+  
+  /* Individual Project Card Styling */
+  .projects-container .project-card {
+    background-color: rgba(255, 255, 255, 0.05); /* Transparent dark overlay for cards */
+    border-radius: 12px; /* Rounded corners for cards */
+    padding: 20px;
+    width: 250px; /* Fixed width for uniformity */
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 6px; /* Subtle shadow for depth */
+  }
+  
+  .projects-container .project-card h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .projects-container .see-more {
+    display: inline-block;
+    margin-top: 15px;
+    color: #58a6ff; /* Blue text for links */
+    text-decoration: none;
+  }
+  
+  .projects-container .see-more:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+
+  /* General Section Spacing */
+section {
+  margin: 50px 0; /* Adds space above and below each section */
+}
+
+/* Skills Section */
+.skills-section {
+  text-align: center;
+}
+
+.skills-table {
+  margin: 20px auto; /* Centers the table and adds spacing */
+  border-collapse: collapse;
+  width: 80%; /* Adjusts table width */
+}
+
+.skills-table th, .skills-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.skills-table th {
+  background-color: #f4f4f4;
+}
+
+.skills-table td {
+  text-align: center;
+}
+
+/* Projects Section */
+.projects-section {
+  text-align: center;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Adds space between project cards */
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px; /* Ensures uniform card size */
+}
+
+.project-card h4 {
+  margin-bottom: 10px; /* Adds space below the title */
+}
+
+.project-card p {
+  margin-bottom: 15px; /* Adds space below the description */
+}
+
+/* Image Gallery Section */
+.image-gallery {
+  text-align: center;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Aligns images vertically if needed */
+  flex-wrap: wrap; 
+}
+
+.gallery-item {
+  flex-grow: 1; /* Allows images to grow proportionally */
+  max-width: calc(33.33% - 20px);
+}
+
+@media (max-width: 768px) {
+  .gallery-item:hover {
+    transform: none; /* This would disable the hover effect */
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  header {
+    flex-direction: column; /* Stacks logo and nav links vertically */
+    align-items: center;
+    gap: 10px;
+    padding-bottom:-10 px
+   }
+  
+
+/* iPad (768px and below) */
+@media only screen and (max-width: 768px) {
+  
+  /* Navigation Bar */
+  .nav ul {
+    flex-direction: column; /* Stack links vertically */
+    gap: 10px; /* Reduce spacing between links */
+    text-align: center; /* Center-align links */
+    padding-top: 20px; /* Add spacing above links */
+    background-color: #f4f4f4; /* Optional background color for better visibility */
+    border-radius: 5px; /* Rounded corners */
+    padding-bottom:10 px
+   }
+
+   .header{
+   padding-top:-15 px
+   }
+
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .sidebar {
+    margin: auto; /* Center-align on smaller screens */
+    width: auto; /* Adjust width for responsiveness */
+    text-align: center; /* Center-align text */
+    box-shadow: none; /* Remove shadow for simplicity */
+    padding: 15px;
+  }
+}
+
+
+  .project-card,
+  .gallery-item {
+    width: auto; /* Adjusts width for smaller screens */
+    max-width: none;
+    margin-bottom: 20px; /* Adds spacing between stacked items */
+  }
+}
+
+
+  
+  /* Skills Section Styling */
+
+/* Image Gallery Styling */
+/* Image Gallery Styling */
+.image-gallery {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adds space between images */
+}
+
+.gallery-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-item {
+  width: auto;
+  height: auto;
+  max-width: 300px; /* Limits image size for consistency */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.gallery-item:hover {
+  transform: scale(1.05); /* Slightly enlarges the image on hover */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Adds a deeper shadow on hover */
+}
+
+/* View Button Styling */
+.view-button {
+  margin-top: 10px; /* Adds space between the image and button */
+  padding: 10px 20px;
+  background-color: #007BFF; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  font-size: medium;
+  cursor: pointer;
+}
+
+.view-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+/* Reach Out Section */
+.reach-out {
+  background-color: #0d1117; /* Dark background */
+  color: #c9d1d9; /* Light text */
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.reach-out h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.contact-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+  flex-wrap: wrap; /* Responsive layout */
+}
+
+.contact-item {
+  background-color: #161b22; /* Slightly lighter dark background */
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px; /* Fixed width for uniformity */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.contact-item i {
+  font-size: 2rem;
+  color: #58a6ff; /* Blue icon color */
+}
+
+.contact-item h3 {
+  margin-top: 15px;
+}
+
+.contact-item p {
+  margin-bottom: 15px;
+}
+
+.contact-link {
+  color: #58a6ff; /* Blue link color */
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+
+.gallery-item {
+  width: auto;
+  height: auto;
+  max-width: 300px; /* Ensures images have a consistent size */
+  border-radius: 10px; /* Rounds the corners of the images */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for effects */
+}
+
+.gallery-item:hover {
+  transform: scale(1.1); /* Enlarges the image slightly on hover */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Adds a deeper shadow on hover */
+}
+
