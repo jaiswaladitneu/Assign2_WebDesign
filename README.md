@@ -1,8 +1,8 @@
 # Assign2_WebDesign
 
-Project Overview
-This project is a professional portfolio website designed to showcase skills, projects, and contact information. It is built using HTML, CSS, and responsive design principles to ensure compatibility across devices like desktops, tablets, and smartphones.
-Features
+Project Overview:
+I built it using HTML, CSS, and responsive design principles to ensure compatibility across devices like desktops, tablets, and smartphones.
+Features:
 Semantic HTML Structure:
 Utilizes semantic elements like <header>, <section>, <article>, <aside>, and <footer> for better structure and accessibility.
 Responsive Design:
@@ -59,10 +59,7 @@ Navigation links stack vertically.
 Sidebar centers on smaller screens.
 Smartphones (375px):
 Project cards and gallery items adjust their width for smaller screens.
-How to Run the Project
-Clone or download the repository from GitHub (private repository linked to Northeastern email).
-Open index.html in any modern web browser to view the website locally.
-Submission Instructions
-Upload all files to a private GitHub repository using your Northeastern email account.
-Submit a ZIP file of the project on Canvas along with the GitHub URL in Canvas remarks.
-This documentation provides an overview of the portfolio website's structure, features, and implementation details
+
+
+
+
